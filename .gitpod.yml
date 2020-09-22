@@ -5,4 +5,4 @@ vscode:
     - correctnessLab.dafny-vscode@0.17.1:y0vNEkuQw4SUFvPIFxLkEA==
  
 tasks:
-  - command: gp open concat.dfy
+  - command: gp open fail.dfy
