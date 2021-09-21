@@ -1,4 +1,4 @@
-image: lemmster/gitpod-dafny:latest
+image: gitpod/workspace-dotnet
   
 vscode:
   extensions:
