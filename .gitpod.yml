@@ -2,7 +2,7 @@ image: lemmster/gitpod-dafny:latest
   
 vscode:
   extensions:
-    - correctnessLab.dafny-vscode@0.17.1:y0vNEkuQw4SUFvPIFxLkEA==
+    - https://github.com/dafny-lang/ide-vscode/releases/download/v1.8.0/dafny-vscode-1.8.0.vsix
  
 tasks:
   - command: gp open fail.dfy
