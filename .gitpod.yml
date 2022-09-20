@@ -2,7 +2,7 @@ image: gitpod/workspace-dotnet
   
 vscode:
   extensions:
-    - https://github.com/dafny-lang/ide-vscode/releases/download/v2.3.0/ide-vscode-2.3.0.vsix
+    - https://github.com/dafny-lang/ide-vscode/releases/download/v2.8.2/ide-vscode-2.8.2.vsix
  
 tasks:
   - command: gp open fail.dfy
