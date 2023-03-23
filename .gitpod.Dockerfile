@@ -1,4 +1,4 @@
-FROM gitpod/workspace-dotnet-vnc
+FROM gitpod/workspace-dotnet
 
 USER gitpod
 #.NET installed via .gitpod.yml task until the following issue is fixed: https://github.com/gitpod-io/gitpod/issues/5090
