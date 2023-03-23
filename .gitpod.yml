@@ -5,5 +5,9 @@ vscode:
   extensions:
     - https://github.com/dafny-lang/ide-vscode/releases/download/v3.0.9/ide-vscode-3.0.9.vsix
  
-tasks:
+tasks:  
+  - name: Postinstall .NET 6.0 and dev certificates
+    init: |
+      mkdir -p $DOTNET_ROOT && curl -fsSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel $DOTNET_VERSION --install-dir $DOTNET_ROOT 
+      dotnet dev-certs https 
   - command: gp open fail.dfy
